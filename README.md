@@ -14,13 +14,16 @@ After cloning repository, follow instruction below.
 
 In the project directory, you can run:
 
-### `npm install`
+### `composer install & npm install`
 
 Install all depedencies of this project. And then:
 
+### Rename .env.example file to .env
+### `php artisan key:generate`
+
 ### `npm run dev`
 
-To runs vite and enable hot reload
+To runs vite and enable hot reload.
 
 ### `php artisan serve`
 
